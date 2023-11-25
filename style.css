@@ -1,0 +1,26 @@
+@font-face {
+    font-family: rahul;
+    src: url("./Inter-Bold.ttf");
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: rahul;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("./background.jpg");
+}
+
+h1{
+    font-size: 100px;
+    font-weight: 900;
+    color: #fff;
+    text-shadow: 5px 5px 10px #000;
+}
